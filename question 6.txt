@@ -1,0 +1,11 @@
+
+    var a = 1;
+    var e = 2;
+    var i = 3;
+    var o = 4;
+    var u = 5;
+    if(a == a||e==e|| i==i|| o==o || u == u ){
+      print("a is vowel");
+    }else{
+      print ("a is consonant");
+    }

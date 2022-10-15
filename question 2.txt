@@ -1,0 +1,26 @@
+    
+  int ahsan = 12;
+     int hassan = 13;
+     int hammas = 14;
+      if(ahsan > hassan && ahsan > hammas){
+     print("ahsan is oldest");  
+}
+else if(hassan > hammas && hassan  > ahsan){
+  print("hassan is oldest");
+}    
+    
+ else{
+  print("hammas is oldest");
+  }      
+  
+   if(ahsan < hassan && ahsan < hammas){
+     print("ahsan is youngest");  
+}
+else if(hassan < hammas && hassan  < ahsan){
+  print("hassan is youngest");
+}    
+    
+ else{
+  print("hammas is youngest");
+  }       
+  

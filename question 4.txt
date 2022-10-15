@@ -1,0 +1,7 @@
+ int year = 1984;
+ if(year % 400 == 0 ){
+  print("it is leap year"); 
+ } 
+   else{
+     print("it is not leap year");
+   }

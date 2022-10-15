@@ -1,0 +1,11 @@
+Question no 1
+
+ void main() {
+int length = 49;
+    int breadth = 64;
+if(length == breadth){  
+  print("square values");
+}  
+     else {
+       print("rectangle values");
+         }

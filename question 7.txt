@@ -1,0 +1,57 @@
+question no 7
+
+
+
+  double netamount = 0.0;  
+  // double totalamount = 0.0;
+    double rs= 0.0;
+    
+    var name = "james";
+    var unit = 500;
+    var id = 246;
+   // double rs;
+    if( unit <= 199){
+    rs=1.20;
+    }
+    if(unit >= 200 && unit <= 400){
+    rs=1.50;
+    }
+    else if (unit >= 400 && unit <= 600){
+      
+      rs=1.80;;
+    }
+     // else if (unitconsumed >= 600){
+     // rs(2.00);
+    //  }
+    else{
+     rs =2.00;
+    }
+   var totalamount =( rs * unit);
+   //  print (totalamount = ${chargeperunit * unitconsumed});
+    var tax =(totalamount * 15) /100;
+    netamount = totalamount + tax;
+    print("customer IDNO :$id ");
+    print("customer name : $name");
+    print("unit consumed:$unit");
+    print("total amount:@$rs per unit :$totalamount");
+    print("netamount:$netamount");
+    
+    
+         }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+   
+   
+   
+  

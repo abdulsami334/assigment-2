@@ -1,0 +1,20 @@
+  question 3  
+ 
+
+
+
+ double percentagegiven = 75;  
+ int classesheld  =   16;
+  int classesattended = 10;
+    int percentagemarks = 100;
+    double output  = classesattended /  classesheld;
+   // print("output is : ${classesattended / classesheld}");
+    double percentage = output * percentagemarks;
+    print ("percentage of class attended  is ${output * percentagemarks}");
+  if(percentage < percentagegiven){
+  print("student is  allowed to sit in the class");
+   
+  }
+else{
+  print("student is not allowed to sit in the class");
+}
